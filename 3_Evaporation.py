@@ -188,7 +188,7 @@ with colEc:
         st.markdown("where,")
         st.markdown("$\Delta$: Slope of saturation vapour pressure curve [$kPa K^{-1}$]")
         st.latex(r''' 
-                 \Delta = \frac{4.098 e_s(T_a)}{(237.3 + T_a)^{2}} \quad [kPa K^{-1}] \\
+                 \Delta = \frac{4098 e_s(T_a)}{(237.3 + T_a)^{2}} \quad [kPa K^{-1}] \\
                  ''')
         st.markdown("where,")
         st.latex(r'''\small
