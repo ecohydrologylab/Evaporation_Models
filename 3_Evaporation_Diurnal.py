@@ -77,7 +77,7 @@ with c2:
     fig = plt.figure(figsize=(8,8))
     plt.plot(df['Time h'],df2['Ea [mm d-1]'],color='b',label='Ea: Aerodynamic model')
     plt.plot(df['Time h'],df2['Eb [mm d-1]'],color='r',label='Eb: Energy balance model')
-    plt.plot(df['Time h'],df2['Ec [mm d-1]'],color='k',label='Ec: Energy balance model')
+    plt.plot(df['Time h'],df2['Ec [mm d-1]'],color='k',label='Ec: Combined model')
     plt.legend()
     plt.xlabel('Time [hr]')
     plt.ylabel('Evaporation rate [mm d$^{-1}$]')
