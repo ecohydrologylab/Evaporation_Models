@@ -143,9 +143,9 @@ with colEe:
         st.latex(r'''
                  \small
                  \bullet
-                 \text{\textcolor{yellow}{ Usually we ignore:
+                 \text{\textcolor{red}{ Usually we ignore:
                                        "$\Delta$ S/$\Delta t$"  and "G"}} \\
-                 \bullet\text{\textcolor{yellow}{After simplification}}
+                 \bullet\text{\textcolor{red}{After simplification}}
                  ''')
         st.markdown("$E$ = Evaporation rate &emsp; [$m s^{-1}$]")
         st.latex(r'''E = c \frac{R_n - H}{\rho_w \lambda} \quad \text{[mm d$^{-1}$]}
